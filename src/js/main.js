@@ -30,3 +30,11 @@ function tiden() {
 document.getElementById("klockan").innerHTML = date.toLocaleTimeString();
 }
 
+let btnEL = document.getElementById("btn")
+let bollEL = document.getElementById("boll")
+btn.addEventListener('click', function() {
+    // Lägg till CSS-klassen för att starta animationen
+    boll.classList.add('hoppa');
+});
+
+

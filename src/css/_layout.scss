@@ -260,3 +260,30 @@ main p {
     cursor: pointer;
 }
 
+#anim {
+    width: 100%;
+    margin: 5% auto;
+    text-align: center;
+
+}
+
+#btn {
+    color: base.$primary-white;
+    background-color: base.$primary-pink-third;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#boll {
+    margin: 5% auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: base.$primary-pink-secondery;
+}
+
+.hoppa {
+    animation: hoppa 2s linear infinite  ;
+
+}
