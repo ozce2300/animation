@@ -159,6 +159,7 @@ main p {
     @extend .open;
 
 
+
 }
 
 .bilder {
@@ -241,3 +242,13 @@ main p {
             background-color: darkgrey;
             }
         }
+
+.animation {
+    animation: vanstertillhoger 1s ease-out forwards;
+
+}
+
+.animation2 {
+    animation: vanstertillhoger 2s ease-out forwards;
+
+}
