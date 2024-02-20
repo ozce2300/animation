@@ -252,3 +252,11 @@ main p {
     animation: vanstertillhoger 2s ease-out forwards;
 
 }
+
+
+
+.image:hover {
+    animation: rotera 4s infinite;
+    cursor: pointer;
+}
+
